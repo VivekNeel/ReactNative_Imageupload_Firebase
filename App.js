@@ -13,7 +13,7 @@ import { Provider } from 'react-redux'
 import firebase from 'firebase'
 import RNFetchBlob from 'rn-fetch-blob'
 const store = configureStore()
-
+// TODO : Move this to BuildConfig
 var config = {
   apiKey: "AIzaSyBQR_hz4BJQ00VhZ_MtURjxD5hn9ch1kko",
   authDomain: "justickets-android-staging.firebaseapp.com",
