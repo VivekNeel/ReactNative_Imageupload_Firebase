@@ -3,6 +3,7 @@ package com.imageupload;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.imagepicker.ImagePickerPackage;
 import com.terrylinla.rnsketchcanvas.SketchCanvasPackage;
 import com.RNFetchBlob.RNFetchBlobPackage;
 import com.facebook.react.ReactNativeHost;
@@ -26,7 +27,7 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
             new SketchCanvasPackage(),
-            new RNFetchBlobPackage()
+            new RNFetchBlobPackage() , new ImagePickerPackage()
       );
     }
 
